@@ -1,0 +1,25 @@
+=============================================================================
+=                                                                           =
+=             D E C A R A N G I N G   -   N o t e s                         =
+=                                                                           =
+=============================================================================
+= Release notes for decaranging application source code, 
+= the Decawave Ranging Demo software for EVK1000
+=
+= Copyright 2017 (c) DecaWave Ltd, Dublin, Ireland.
+= All rights reserved.
+=============================================================================
+
+
+=============================================================================
+Source Release Version 3.11 MX  ( 15th February 2017 )
+=============================================================================
+
+This is the initial release of EVK project code in ST System Workbench IDE
+
+a) change version string to 3.11 MX
+
+b) this is a same EVK application as 3.11, except the project has been created 
+with CubeMX tool and it is built with ST System Workbench IDE.
+
+=============================================================================

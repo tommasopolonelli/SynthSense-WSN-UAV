@@ -1,0 +1,359 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN40P800X800X100-69N">
+<rectangle x1="-0.755" y1="-0.755" x2="0.755" y2="0.755" layer="31"/>
+<rectangle x1="-0.755" y1="1.375" x2="0.755" y2="2.885" layer="31"/>
+<rectangle x1="-2.885" y1="1.375" x2="-1.375" y2="2.885" layer="31"/>
+<rectangle x1="-2.885" y1="-0.755" x2="-1.375" y2="0.755" layer="31"/>
+<rectangle x1="-2.885" y1="-2.885" x2="-1.375" y2="-1.375" layer="31"/>
+<rectangle x1="-0.755" y1="-2.885" x2="0.755" y2="-1.375" layer="31"/>
+<rectangle x1="1.375" y1="-2.885" x2="2.885" y2="-1.375" layer="31"/>
+<rectangle x1="1.375" y1="-0.755" x2="2.885" y2="0.755" layer="31"/>
+<rectangle x1="1.375" y1="1.375" x2="2.885" y2="2.885" layer="31"/>
+<wire x1="-4.08" y1="4.08" x2="4.08" y2="4.08" width="0.127" layer="51"/>
+<wire x1="4.08" y1="4.08" x2="4.08" y2="-4.08" width="0.127" layer="51"/>
+<wire x1="4.08" y1="-4.08" x2="-4.08" y2="-4.08" width="0.127" layer="51"/>
+<wire x1="-4.08" y1="-4.08" x2="-4.08" y2="4.08" width="0.127" layer="51"/>
+<wire x1="-3.6" y1="4.08" x2="-4.08" y2="4.08" width="0.127" layer="21"/>
+<wire x1="-4.08" y1="4.08" x2="-4.08" y2="3.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="4.08" x2="4.08" y2="4.08" width="0.127" layer="21"/>
+<wire x1="4.08" y1="4.08" x2="4.08" y2="3.6" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-4.08" x2="4.08" y2="-4.08" width="0.127" layer="21"/>
+<wire x1="4.08" y1="-4.08" x2="4.08" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-4.08" y1="-3.6" x2="-4.08" y2="-4.08" width="0.127" layer="21"/>
+<wire x1="-4.08" y1="-4.08" x2="-3.6" y2="-4.08" width="0.127" layer="21"/>
+<circle x="-5" y="3.2" radius="0.1" width="0.3" layer="21"/>
+<circle x="-5" y="3.2" radius="0.1" width="0.3" layer="51"/>
+<wire x1="-4.64" y1="4.64" x2="4.64" y2="4.64" width="0.05" layer="39"/>
+<wire x1="4.64" y1="4.64" x2="4.64" y2="-4.64" width="0.05" layer="39"/>
+<wire x1="4.64" y1="-4.64" x2="-4.64" y2="-4.64" width="0.05" layer="39"/>
+<wire x1="-4.64" y1="-4.64" x2="-4.64" y2="4.64" width="0.05" layer="39"/>
+<text x="-5.08" y="5.08" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.778" layer="27">&gt;VALUE</text>
+<smd name="1" x="-3.905" y="3.2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="2" x="-3.905" y="2.8" dx="0.97" dy="0.22" layer="1"/>
+<smd name="3" x="-3.905" y="2.4" dx="0.97" dy="0.22" layer="1"/>
+<smd name="4" x="-3.905" y="2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="5" x="-3.905" y="1.6" dx="0.97" dy="0.22" layer="1"/>
+<smd name="6" x="-3.905" y="1.2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="7" x="-3.905" y="0.8" dx="0.97" dy="0.22" layer="1"/>
+<smd name="8" x="-3.905" y="0.4" dx="0.97" dy="0.22" layer="1"/>
+<smd name="9" x="-3.905" y="0" dx="0.97" dy="0.22" layer="1"/>
+<smd name="10" x="-3.905" y="-0.4" dx="0.97" dy="0.22" layer="1"/>
+<smd name="11" x="-3.905" y="-0.8" dx="0.97" dy="0.22" layer="1"/>
+<smd name="12" x="-3.905" y="-1.2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="13" x="-3.905" y="-1.6" dx="0.97" dy="0.22" layer="1"/>
+<smd name="14" x="-3.905" y="-2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="15" x="-3.905" y="-2.4" dx="0.97" dy="0.22" layer="1"/>
+<smd name="16" x="-3.905" y="-2.8" dx="0.97" dy="0.22" layer="1"/>
+<smd name="17" x="-3.905" y="-3.2" dx="0.97" dy="0.22" layer="1"/>
+<smd name="18" x="-3.2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="19" x="-2.8" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="20" x="-2.4" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="21" x="-2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="22" x="-1.6" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="23" x="-1.2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="24" x="-0.8" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="25" x="-0.4" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="26" x="0" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="27" x="0.4" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="28" x="0.8" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="29" x="1.2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="30" x="1.6" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="31" x="2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="32" x="2.4" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="33" x="2.8" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="34" x="3.2" y="-3.905" dx="0.97" dy="0.22" layer="1" rot="R90"/>
+<smd name="35" x="3.905" y="-3.2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="36" x="3.905" y="-2.8" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="37" x="3.905" y="-2.4" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="38" x="3.905" y="-2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="39" x="3.905" y="-1.6" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="40" x="3.905" y="-1.2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="41" x="3.905" y="-0.8" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="42" x="3.905" y="-0.4" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="43" x="3.905" y="0" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="44" x="3.905" y="0.4" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="45" x="3.905" y="0.8" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="46" x="3.905" y="1.2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="47" x="3.905" y="1.6" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="48" x="3.905" y="2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="49" x="3.905" y="2.4" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="50" x="3.905" y="2.8" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="51" x="3.905" y="3.2" dx="0.97" dy="0.22" layer="1" rot="R180"/>
+<smd name="52" x="3.2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="53" x="2.8" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="54" x="2.4" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="55" x="2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="56" x="1.6" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="57" x="1.2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="58" x="0.8" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="59" x="0.4" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="60" x="0" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="61" x="-0.4" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="62" x="-0.8" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="63" x="-1.2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="64" x="-1.6" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="65" x="-2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="66" x="-2.4" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="67" x="-2.8" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="68" x="-3.2" y="3.905" dx="0.97" dy="0.22" layer="1" rot="R270"/>
+<smd name="69" x="0" y="0" dx="6.4" dy="6.4" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STM32WB55RGV7_SECTION1">
+<wire x1="-68.58" y1="22.86" x2="-68.58" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-68.58" y1="-25.4" x2="68.58" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="68.58" y1="-25.4" x2="68.58" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="68.58" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="94"/>
+<text x="-68.58" y="23.622" size="1.778" layer="95">&gt;NAME</text>
+<text x="-68.58" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PA0/TIM2_CH1/COMP1_OUT/SAI1_EXTCLK/TIM2_ETR/CM4_EVENTOUT/COMP1_INM/ADC1_IN5/RTC_TAMP2/WKUP1" x="-73.66" y="17.78" length="middle"/>
+<pin name="PA1/TIM2_CH2/I2C1_SMBA/SPI1_SCK/LCD_SEG0/CM4_EVENTOUT/COMP1_INP/ADC1_IN6" x="-73.66" y="15.24" length="middle"/>
+<pin name="PA2/LSCO/TIM2_CH3/LPUART1_TX/QUADSPI_BK1_NCS/LCD_SEG1/COMP2_OUT/CM4_EVENTOUT/COMP2_INM/ADC1_IN7/WKUP4/LSCO" x="-73.66" y="12.7" length="middle"/>
+<pin name="PA3/TIM2_CH4/SAI1_PDM_CK1/LPUART1_RX/QUADSPI_CLK/LCD_SEG2/SAI1_MCLK_A/CM4_EVENTOUT/COMP2_INP/ADC1_IN8" x="-73.66" y="10.16" length="middle"/>
+<pin name="PA4/SPI1_NSS/SAI1_FS_B/LPTIM2_OUT/LCD_SEG5/CM4_EVENTOUT/COMP1_INM/COMP2_INM/ADC1_IN9" x="-73.66" y="7.62" length="middle"/>
+<pin name="PA5/TIM2_CH1/TIM2_ETR/SPI1_SCK/LPTIM2_ETR/SAI1_SD_B/CM4_EVENTOUT/COMP1_INM/COMP2_INM/ADC1_IN10" x="-73.66" y="5.08" length="middle"/>
+<pin name="PA6/TIM1_BKIN/SPI1_MISO/LPUART1_CTS/QUADSPI_BK1_IO3/LCD_SEG3/TIM16_CH1/CM4_EVENTOUT/ADC1_IN11" x="-73.66" y="2.54" length="middle"/>
+<pin name="PA7/TIM1_CH1N/I2C3_SCL/SPI1_MOSI/QUADSPI_BK1_IO2/LCD_SEG4/COMP2_OUT/TIM17_CH1/CM4_EVENTOUT/ADC1_IN12" x="-73.66" y="0" length="middle"/>
+<pin name="PA8/MCO/TIM1_CH1/SAI1_PDM_CK2/USART1_CK/LCD_COM0/SAI1_SCK_A/LPTIM2_OUT/CM4_EVENTOUT/ADC1_IN15" x="-73.66" y="-2.54" length="middle"/>
+<pin name="PA9/TIM1_CH2/SAI1_PDM_DI2/I2C1_SCL/SPI2_SCK/USART1_TX/LCD_COM1/SAI1_FS_A/CM4_EVENTOUT/COMP1_INM/ADC1_IN16" x="-73.66" y="-5.08" length="middle"/>
+<pin name="PA10/TIM1_CH3/SAI1_PDM_DI1/I2C1_SDA/USART1_RX/USB_CRS_SYNC/LCD_COM2/SAI1_SD_A/TIM17_BKIN/CM4_EVENTOUT" x="-73.66" y="-7.62" length="middle"/>
+<pin name="PA11/TIM1_CH4/TIM1_BKIN2/SPI1_MISO/USART1_CTS/USB_DM/CM4_EVENTOUT" x="-73.66" y="-10.16" length="middle"/>
+<pin name="PA12/TIM1_ETR/SPI1_MOSI/LPUART1_RX/USART1_RTS_DE/USB_DP/CM4_EVENTOUT" x="-73.66" y="-12.7" length="middle"/>
+<pin name="PA13/JTMS-SWDIO/IR_OUT/USB_NOE/SAI1_SD_B/CM4_EVENTOUT" x="-73.66" y="-15.24" length="middle"/>
+<pin name="PA14/JTCK-SWCLK/LPTIM1_OUT/I2C1_SMBA/LCD_SEG5/SAI1_FS_B/CM4_EVENTOUT" x="-73.66" y="-17.78" length="middle"/>
+<pin name="PA15/JTDI/TIM2_CH1/TIM2_ETR/SPI1_NSS/TSC_G3_IO1/LCD_SEG17/CM4_EVENTOUT" x="-73.66" y="-20.32" length="middle"/>
+</symbol>
+<symbol name="STM32WB55RGV7_SECTION2">
+<wire x1="-71.12" y1="22.86" x2="-71.12" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-71.12" y1="-25.4" x2="71.12" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="71.12" y1="-25.4" x2="71.12" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="71.12" y1="22.86" x2="-71.12" y2="22.86" width="0.1524" layer="94"/>
+<text x="-71.12" y="23.622" size="1.778" layer="95">&gt;NAME</text>
+<text x="-71.12" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PB0/COMP1_OUT/CM4_EVENTOUT/EXT_PA_TX" x="-76.2" y="17.78" length="middle"/>
+<pin name="PB1/LPUART1_RTS_DE/LPTIM2_IN1/CM4_EVENTOUT" x="-76.2" y="15.24" length="middle"/>
+<pin name="PB2/RTC_OUT/LPTIM1_OUT/I2C3_SMBA/SPI1_NSS/LCD_VLCD/SAI1_EXTCLK/CM4_EVENTOUT/COMP1_INP" x="-76.2" y="12.7" length="middle"/>
+<pin name="PB3/JTDO-TRACESWO/TIM2_CH2/SPI1_SCK/USART1_RTS_DE/LCD_SEG7/SAI1_SCK_B/CM4_EVENTOUT/COMP2_INM" x="-76.2" y="10.16" length="middle"/>
+<pin name="PB4/NJTRST/I2C3_SDA/SPI1_MISO/USART1_CTS/TSC_G2_IO1/LCD_SEG8/SAI1_MCLK_B/TIM17_BKIN/CM4_EVENTOUT/COMP2_INP" x="-76.2" y="7.62" length="middle"/>
+<pin name="PB5/LPTIM1_IN1/I2C1_SMBA/SPI1_MOSI/USART1_CK/LPUART1_TX/TSC_G2_IO2/LCD_SEG9/COMP2_OUT/SAI1_SD_B/TIM16_BKIN/CM4_EVENTOUT" x="-76.2" y="5.08" length="middle"/>
+<pin name="PB6/LPTIM1_ETR/I2C1_SCL/USART1_TX/TSC_G2_IO3/LCD_SEG6/SAI1_FS_B/TIM16_CH1N/MCO/CM4_EVENTOUT/COMP2_INP" x="-76.2" y="2.54" length="middle"/>
+<pin name="PB7/LPTIM1_IN2/TIM1_BKIN/I2C1_SDA/USART1_RX/TSC_G2_IO4/LCD_SEG21/TIM17_CH1N/CM4_EVENTOUT/COMP2_INM/PVD_IN" x="-76.2" y="0" length="middle"/>
+<pin name="PB8/TIM1_CH2N/SAI1_PDM_CK1/I2C1_SCL/QUADSPI_BK1_IO1/LCD_SEG16/SAI1_MCLK_A/TIM16_CH1/CM4_EVENTOUT" x="-76.2" y="-2.54" length="middle"/>
+<pin name="PB9/TIM1_CH3N/SAI1_PDM_DI2/I2C1_SDA/SPI2_NSS/IR_OUT/TSC_G7_IO4/QUADSPI_BK1_IO0/LCD_COM3/SAI1_FS_A/TIM17_CH1/CM4_EVENTOUT" x="-76.2" y="-5.08" length="middle"/>
+<pin name="PB10/TIM2_CH3/I2C3_SCL/SPI2_SCK/LPUART1_RX/TSC_SYNC/QUADSPI_CLK/LCD_SEG10/COMP1_OUT/SAI1_SCK_A/CM4_EVENTOUT" x="-76.2" y="-7.62" length="middle"/>
+<pin name="PB11/TIM2_CH4/I2C3_SDA/LPUART1_TX/QUADSPI_BK1_NCS/LCD_SEG11/COMP2_OUT/CM4_EVENTOUT" x="-76.2" y="-10.16" length="middle"/>
+<pin name="PB12/TIM1_BKIN/I2C3_SMBA/SPI2_NSS/LPUART1_RTS/TSC_G1_IO1/LCD_SEG12/SAI1_FS_A/CM4_EVENTOUT" x="-76.2" y="-12.7" length="middle"/>
+<pin name="PB13/TIM1_CH1N/I2C3_SCL/SPI2_SCK/LPUART1_CTS/TSC_G1_IO2/LCD_SEG13/SAI1_SCK_A/CM4_EVENTOUT" x="-76.2" y="-15.24" length="middle"/>
+<pin name="PB14/TIM1_CH2N/I2C3_SDA/SPI2_MISO/TSC_G1_IO3/LCD_SEG14/SAI1_MCLK_A/CM4_EVENTOUT" x="-76.2" y="-17.78" length="middle"/>
+<pin name="PB15/RTC_REFIN/TIM1_CH3N/SPI2_MOSI/TSC_G1_IO4/LCD_SEG15/SAI1_SD_A/CM4_EVENTOUT" x="-76.2" y="-20.32" length="middle"/>
+</symbol>
+<symbol name="STM32WB55RGV7_SECTION3">
+<wire x1="-53.34" y1="27.94" x2="-53.34" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-53.34" y1="-30.48" x2="53.34" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="-30.48" x2="53.34" y2="27.94" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="27.94" x2="-53.34" y2="27.94" width="0.1524" layer="94"/>
+<text x="-53.34" y="28.702" size="1.778" layer="95">&gt;NAME</text>
+<text x="-53.34" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PC0/LPTIM1_IN1/I2C3_SCL/LPUART1_RX/LCD_SEG18/LPTIM2_IN1/CM4_EVENTOUT/ADC1_IN1" x="-58.42" y="22.86" length="middle"/>
+<pin name="PC1/LPTIM1_OUT/SPI2_MOSI/I2C3_SDA/LPUART1_TX/LCD_SEG19/CM4_EVENTOUT/ADC1_IN2" x="-58.42" y="20.32" length="middle"/>
+<pin name="PC2/LPTIM1_IN2/SPI2_MISO/LCD_SEG20/CM4_EVENTOUT/ADC1_IN3" x="-58.42" y="17.78" length="middle"/>
+<pin name="PC3/LPTIM1_ETR/SAI1_PDM_DI1/SPI2_MOSI/LCD_VLCD/SAI1_SD_A/LPTIM2_ETR/CM4_EVENTOUT/ADC1_IN4" x="-58.42" y="15.24" length="middle"/>
+<pin name="PC4/LCD_SEG22/CM4_EVENTOUT/COMP1_INM/ADC1_IN13" x="-58.42" y="12.7" length="middle"/>
+<pin name="PC5/SAI1_PDM_DI3/LCD_SEG23/CM4_EVENTOUT/COMP1_INP/ADC1_IN14/WKUP5" x="-58.42" y="10.16" length="middle"/>
+<pin name="PC6/TSC_G4_IO1/LCD_SEG24/CM4_EVENTOUT" x="-58.42" y="7.62" length="middle"/>
+<pin name="PC10/TRACED1/TSC_G3_IO2/LCD_COM4/LCD_SEG28/LCD_SEG40/CM4_EVENTOUT" x="-58.42" y="5.08" length="middle"/>
+<pin name="PC11/TSC_G3_IO3/LCD_COM5/LCD_SEG29/LCD_SEG41/CM4_EVENTOUT" x="-58.42" y="2.54" length="middle"/>
+<pin name="PC12/TRACED3/TSC_G3_IO4/LCD_COM6/LCD_SEG30/LCD_SEG42/CM4_EVENTOUT" x="-58.42" y="0" length="middle"/>
+<pin name="PC13/CM4_EVENTOUT/RTC_TAMP1/RTC_TS/RTC_OUT/WKUP2" x="-58.42" y="-2.54" length="middle"/>
+<pin name="PC14-OSC32_IN" x="-58.42" y="-5.08" length="middle"/>
+<pin name="PC15-OSC32_OUT" x="-58.42" y="-7.62" length="middle"/>
+<pin name="PE4/CM4_EVENTOUT" x="-58.42" y="-20.32" length="middle"/>
+<pin name="PD0/SPI2_NSS/CM4_EVENTOUT" x="-58.42" y="-12.7" length="middle"/>
+<pin name="PD1/SPI2_SCK/CM4_EVENTOUT" x="-58.42" y="-15.24" length="middle"/>
+<pin name="PH3-BOOT0" x="-58.42" y="-25.4" length="middle"/>
+</symbol>
+<symbol name="STM32WB55RGV7_SECTION4">
+<wire x1="-17.78" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="-17.78" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="25.4" width="0.1524" layer="94"/>
+<text x="-17.78" y="26.162" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="22.86" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="NRST" x="-22.86" y="-2.54" length="middle" direction="in"/>
+<pin name="VREF+/VREFBUF_OUT" x="22.86" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDA" x="22.86" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="RF1" x="-22.86" y="-15.24" length="middle"/>
+<pin name="VDDRF" x="22.86" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSSRF" x="22.86" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="OSC_OUT" x="-22.86" y="-10.16" length="middle" direction="out"/>
+<pin name="AT0" x="22.86" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OSC_IN" x="-22.86" y="-7.62" length="middle" direction="in"/>
+<pin name="AT1" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="VFBSMPS" x="22.86" y="7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSSSMPS" x="22.86" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VLXSMPS" x="22.86" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDSMPS" x="22.86" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDUSB" x="22.86" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBAT" x="22.86" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="EPAD" x="22.86" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STM32WB55RGV7" prefix="U">
+<description>Multiprotocol wireless 32-bit MCU Arm-based Cortex-M4</description>
+<gates>
+<gate name="G$1" symbol="STM32WB55RGV7_SECTION1" x="-88.9" y="38.1" swaplevel="1"/>
+<gate name="G$2" symbol="STM32WB55RGV7_SECTION2" x="-88.9" y="-33.02" swaplevel="2"/>
+<gate name="G$3" symbol="STM32WB55RGV7_SECTION3" x="83.82" y="40.64" swaplevel="3"/>
+<gate name="G$4" symbol="STM32WB55RGV7_SECTION4" x="78.74" y="-33.02" swaplevel="4"/>
+</gates>
+<devices>
+<device name="" package="QFN40P800X800X100-69N">
+<connects>
+<connect gate="G$1" pin="PA0/TIM2_CH1/COMP1_OUT/SAI1_EXTCLK/TIM2_ETR/CM4_EVENTOUT/COMP1_INM/ADC1_IN5/RTC_TAMP2/WKUP1" pad="15"/>
+<connect gate="G$1" pin="PA1/TIM2_CH2/I2C1_SMBA/SPI1_SCK/LCD_SEG0/CM4_EVENTOUT/COMP1_INP/ADC1_IN6" pad="16"/>
+<connect gate="G$1" pin="PA10/TIM1_CH3/SAI1_PDM_DI1/I2C1_SDA/USART1_RX/USB_CRS_SYNC/LCD_COM2/SAI1_SD_A/TIM17_BKIN/CM4_EVENTOUT" pad="51"/>
+<connect gate="G$1" pin="PA11/TIM1_CH4/TIM1_BKIN2/SPI1_MISO/USART1_CTS/USB_DM/CM4_EVENTOUT" pad="52"/>
+<connect gate="G$1" pin="PA12/TIM1_ETR/SPI1_MOSI/LPUART1_RX/USART1_RTS_DE/USB_DP/CM4_EVENTOUT" pad="53"/>
+<connect gate="G$1" pin="PA13/JTMS-SWDIO/IR_OUT/USB_NOE/SAI1_SD_B/CM4_EVENTOUT" pad="54"/>
+<connect gate="G$1" pin="PA14/JTCK-SWCLK/LPTIM1_OUT/I2C1_SMBA/LCD_SEG5/SAI1_FS_B/CM4_EVENTOUT" pad="56"/>
+<connect gate="G$1" pin="PA15/JTDI/TIM2_CH1/TIM2_ETR/SPI1_NSS/TSC_G3_IO1/LCD_SEG17/CM4_EVENTOUT" pad="57"/>
+<connect gate="G$1" pin="PA2/LSCO/TIM2_CH3/LPUART1_TX/QUADSPI_BK1_NCS/LCD_SEG1/COMP2_OUT/CM4_EVENTOUT/COMP2_INM/ADC1_IN7/WKUP4/LSCO" pad="17"/>
+<connect gate="G$1" pin="PA3/TIM2_CH4/SAI1_PDM_CK1/LPUART1_RX/QUADSPI_CLK/LCD_SEG2/SAI1_MCLK_A/CM4_EVENTOUT/COMP2_INP/ADC1_IN8" pad="18"/>
+<connect gate="G$1" pin="PA4/SPI1_NSS/SAI1_FS_B/LPTIM2_OUT/LCD_SEG5/CM4_EVENTOUT/COMP1_INM/COMP2_INM/ADC1_IN9" pad="19"/>
+<connect gate="G$1" pin="PA5/TIM2_CH1/TIM2_ETR/SPI1_SCK/LPTIM2_ETR/SAI1_SD_B/CM4_EVENTOUT/COMP1_INM/COMP2_INM/ADC1_IN10" pad="20"/>
+<connect gate="G$1" pin="PA6/TIM1_BKIN/SPI1_MISO/LPUART1_CTS/QUADSPI_BK1_IO3/LCD_SEG3/TIM16_CH1/CM4_EVENTOUT/ADC1_IN11" pad="21"/>
+<connect gate="G$1" pin="PA7/TIM1_CH1N/I2C3_SCL/SPI1_MOSI/QUADSPI_BK1_IO2/LCD_SEG4/COMP2_OUT/TIM17_CH1/CM4_EVENTOUT/ADC1_IN12" pad="22"/>
+<connect gate="G$1" pin="PA8/MCO/TIM1_CH1/SAI1_PDM_CK2/USART1_CK/LCD_COM0/SAI1_SCK_A/LPTIM2_OUT/CM4_EVENTOUT/ADC1_IN15" pad="23"/>
+<connect gate="G$1" pin="PA9/TIM1_CH2/SAI1_PDM_DI2/I2C1_SCL/SPI2_SCK/USART1_TX/LCD_COM1/SAI1_FS_A/CM4_EVENTOUT/COMP1_INM/ADC1_IN16" pad="24"/>
+<connect gate="G$2" pin="PB0/COMP1_OUT/CM4_EVENTOUT/EXT_PA_TX" pad="38"/>
+<connect gate="G$2" pin="PB1/LPUART1_RTS_DE/LPTIM2_IN1/CM4_EVENTOUT" pad="39"/>
+<connect gate="G$2" pin="PB10/TIM2_CH3/I2C3_SCL/SPI2_SCK/LPUART1_RX/TSC_SYNC/QUADSPI_CLK/LCD_SEG10/COMP1_OUT/SAI1_SCK_A/CM4_EVENTOUT" pad="28"/>
+<connect gate="G$2" pin="PB11/TIM2_CH4/I2C3_SDA/LPUART1_TX/QUADSPI_BK1_NCS/LCD_SEG11/COMP2_OUT/CM4_EVENTOUT" pad="29"/>
+<connect gate="G$2" pin="PB12/TIM1_BKIN/I2C3_SMBA/SPI2_NSS/LPUART1_RTS/TSC_G1_IO1/LCD_SEG12/SAI1_FS_A/CM4_EVENTOUT" pad="46"/>
+<connect gate="G$2" pin="PB13/TIM1_CH1N/I2C3_SCL/SPI2_SCK/LPUART1_CTS/TSC_G1_IO2/LCD_SEG13/SAI1_SCK_A/CM4_EVENTOUT" pad="47"/>
+<connect gate="G$2" pin="PB14/TIM1_CH2N/I2C3_SDA/SPI2_MISO/TSC_G1_IO3/LCD_SEG14/SAI1_MCLK_A/CM4_EVENTOUT" pad="48"/>
+<connect gate="G$2" pin="PB15/RTC_REFIN/TIM1_CH3N/SPI2_MOSI/TSC_G1_IO4/LCD_SEG15/SAI1_SD_A/CM4_EVENTOUT" pad="49"/>
+<connect gate="G$2" pin="PB2/RTC_OUT/LPTIM1_OUT/I2C3_SMBA/SPI1_NSS/LCD_VLCD/SAI1_EXTCLK/CM4_EVENTOUT/COMP1_INP" pad="27"/>
+<connect gate="G$2" pin="PB3/JTDO-TRACESWO/TIM2_CH2/SPI1_SCK/USART1_RTS_DE/LCD_SEG7/SAI1_SCK_B/CM4_EVENTOUT/COMP2_INM" pad="63"/>
+<connect gate="G$2" pin="PB4/NJTRST/I2C3_SDA/SPI1_MISO/USART1_CTS/TSC_G2_IO1/LCD_SEG8/SAI1_MCLK_B/TIM17_BKIN/CM4_EVENTOUT/COMP2_INP" pad="64"/>
+<connect gate="G$2" pin="PB5/LPTIM1_IN1/I2C1_SMBA/SPI1_MOSI/USART1_CK/LPUART1_TX/TSC_G2_IO2/LCD_SEG9/COMP2_OUT/SAI1_SD_B/TIM16_BKIN/CM4_EVENTOUT" pad="65"/>
+<connect gate="G$2" pin="PB6/LPTIM1_ETR/I2C1_SCL/USART1_TX/TSC_G2_IO3/LCD_SEG6/SAI1_FS_B/TIM16_CH1N/MCO/CM4_EVENTOUT/COMP2_INP" pad="66"/>
+<connect gate="G$2" pin="PB7/LPTIM1_IN2/TIM1_BKIN/I2C1_SDA/USART1_RX/TSC_G2_IO4/LCD_SEG21/TIM17_CH1N/CM4_EVENTOUT/COMP2_INM/PVD_IN" pad="67"/>
+<connect gate="G$2" pin="PB8/TIM1_CH2N/SAI1_PDM_CK1/I2C1_SCL/QUADSPI_BK1_IO1/LCD_SEG16/SAI1_MCLK_A/TIM16_CH1/CM4_EVENTOUT" pad="6"/>
+<connect gate="G$2" pin="PB9/TIM1_CH3N/SAI1_PDM_DI2/I2C1_SDA/SPI2_NSS/IR_OUT/TSC_G7_IO4/QUADSPI_BK1_IO0/LCD_COM3/SAI1_FS_A/TIM17_CH1/CM4_EVENTOUT" pad="7"/>
+<connect gate="G$3" pin="PC0/LPTIM1_IN1/I2C3_SCL/LPUART1_RX/LCD_SEG18/LPTIM2_IN1/CM4_EVENTOUT/ADC1_IN1" pad="9"/>
+<connect gate="G$3" pin="PC1/LPTIM1_OUT/SPI2_MOSI/I2C3_SDA/LPUART1_TX/LCD_SEG19/CM4_EVENTOUT/ADC1_IN2" pad="10"/>
+<connect gate="G$3" pin="PC10/TRACED1/TSC_G3_IO2/LCD_COM4/LCD_SEG28/LCD_SEG40/CM4_EVENTOUT" pad="58"/>
+<connect gate="G$3" pin="PC11/TSC_G3_IO3/LCD_COM5/LCD_SEG29/LCD_SEG41/CM4_EVENTOUT" pad="59"/>
+<connect gate="G$3" pin="PC12/TRACED3/TSC_G3_IO4/LCD_COM6/LCD_SEG30/LCD_SEG42/CM4_EVENTOUT" pad="60"/>
+<connect gate="G$3" pin="PC13/CM4_EVENTOUT/RTC_TAMP1/RTC_TS/RTC_OUT/WKUP2" pad="2"/>
+<connect gate="G$3" pin="PC14-OSC32_IN" pad="3"/>
+<connect gate="G$3" pin="PC15-OSC32_OUT" pad="4"/>
+<connect gate="G$3" pin="PC2/LPTIM1_IN2/SPI2_MISO/LCD_SEG20/CM4_EVENTOUT/ADC1_IN3" pad="11"/>
+<connect gate="G$3" pin="PC3/LPTIM1_ETR/SAI1_PDM_DI1/SPI2_MOSI/LCD_VLCD/SAI1_SD_A/LPTIM2_ETR/CM4_EVENTOUT/ADC1_IN4" pad="12"/>
+<connect gate="G$3" pin="PC4/LCD_SEG22/CM4_EVENTOUT/COMP1_INM/ADC1_IN13" pad="25"/>
+<connect gate="G$3" pin="PC5/SAI1_PDM_DI3/LCD_SEG23/CM4_EVENTOUT/COMP1_INP/ADC1_IN14/WKUP5" pad="26"/>
+<connect gate="G$3" pin="PC6/TSC_G4_IO1/LCD_SEG24/CM4_EVENTOUT" pad="50"/>
+<connect gate="G$3" pin="PD0/SPI2_NSS/CM4_EVENTOUT" pad="61"/>
+<connect gate="G$3" pin="PD1/SPI2_SCK/CM4_EVENTOUT" pad="62"/>
+<connect gate="G$3" pin="PE4/CM4_EVENTOUT" pad="40"/>
+<connect gate="G$3" pin="PH3-BOOT0" pad="5"/>
+<connect gate="G$4" pin="AT0" pad="36"/>
+<connect gate="G$4" pin="AT1" pad="37"/>
+<connect gate="G$4" pin="EPAD" pad="69"/>
+<connect gate="G$4" pin="NRST" pad="8"/>
+<connect gate="G$4" pin="OSC_IN" pad="35"/>
+<connect gate="G$4" pin="OSC_OUT" pad="34"/>
+<connect gate="G$4" pin="RF1" pad="31"/>
+<connect gate="G$4" pin="VBAT" pad="1"/>
+<connect gate="G$4" pin="VDD" pad="30 45 68"/>
+<connect gate="G$4" pin="VDDA" pad="14"/>
+<connect gate="G$4" pin="VDDRF" pad="33"/>
+<connect gate="G$4" pin="VDDSMPS" pad="44"/>
+<connect gate="G$4" pin="VDDUSB" pad="55"/>
+<connect gate="G$4" pin="VFBSMPS" pad="41"/>
+<connect gate="G$4" pin="VLXSMPS" pad="43"/>
+<connect gate="G$4" pin="VREF+/VREFBUF_OUT" pad="13"/>
+<connect gate="G$4" pin="VSSRF" pad="32"/>
+<connect gate="G$4" pin="VSSSMPS" pad="42"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Package" value="None"/>
+<attribute name="MP" value="STM32WB55RGV7"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="Description" value="
+Multiprotocol wireless 32-bit MCU Arm-based Cortex-M4
+"/>
+<attribute name="Availability" value="Unavailable"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

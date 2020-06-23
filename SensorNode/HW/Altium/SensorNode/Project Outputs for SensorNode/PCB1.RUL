@@ -1,0 +1,28 @@
+DRC Rules Export File for PCB: C:\Users\tommy\Documents\sensor_node\Altium\SensorNode\PCB1.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_4|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance_3|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_12|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=11.81
+RuleKind=Width|RuleName=Schematic Width Constraint_10|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_9|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_8|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_6|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_5|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_4|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_3|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_1|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_26|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_25|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_24|Scope=Board|Minimum=10.00
+RuleKind=SolderMaskExpansion|RuleName=Schematic Solder Mask Expansion_6|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=Schematic Solder Mask Expansion_5|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=Schematic Solder Mask Expansion_4|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Schematic Width Constraint_11|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_7|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Schematic Width Constraint_2|Scope=Board|Minimum=10.00
+RuleKind=SolderMaskExpansion|RuleName=Schematic Solder Mask Expansion_3|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

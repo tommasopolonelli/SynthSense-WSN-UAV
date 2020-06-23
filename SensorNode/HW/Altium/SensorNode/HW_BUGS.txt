@@ -1,0 +1,2 @@
+- Lightmeter has an unsolderable package
+- The DW1000 must be powered by an 1.8DC/DC converter to decrease the power consumption in TX and RX

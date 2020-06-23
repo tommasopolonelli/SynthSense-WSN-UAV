@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : NX2012SA-32.768K-STD-MUB-1.LibPkg
+
+Section : C:\Users\tommy\Documents\sensor_node\Altium\SensorNode\NX2012SA-32.768K-STD-MUB-1.lia
+    Section : PCB Library - NX2012SA-32.768K-STD-MUB-1.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token NX2012SA-32.768K-STD-MUB-1 On Line 112
+            Warning - 1 : Skipping Token attachedSymbol On Line 163
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - NX2012SA-32.768K-STD-MUB-1.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 88
+            Warning - 1 : Skipping Token layerContents On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 104
+        EndSection
+
+        Section : Generating SCH Library - NX2012SA-32.768K-STD-MUB-1.SchLib
+        EndSection
+    EndSection
+EndSection

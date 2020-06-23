@@ -1,0 +1,36 @@
+PCAD Importer Log
+Project : STM32WB55RGV7.LibPkg
+
+Section : C:\Users\tommy\Documents\sensor_node\Altium\SensorNode\STM32WB55RGV7.lia
+    Section : PCB Library - STM32WB55RGV7.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token STM32WB55RGV7_SECTION1 On Line 260
+            Warning - 1 : Skipping Token STM32WB55RGV7_SECTION2 On Line 420
+            Warning - 1 : Skipping Token STM32WB55RGV7_SECTION3 On Line 580
+            Warning - 1 : Skipping Token STM32WB55RGV7_SECTION4 On Line 749
+            Warning - 1 : Skipping Token attachedSymbol On Line 1025
+            Warning - 1 : Skipping Token attachedSymbol On Line 1026
+            Warning - 1 : Skipping Token attachedSymbol On Line 1027
+            Warning - 1 : Skipping Token attachedSymbol On Line 1028
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - STM32WB55RGV7.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 167
+            Warning - 1 : Skipping Token layerContents On Line 223
+            Warning - 1 : Skipping Token layerContents On Line 232
+            Warning - 1 : Skipping Token layerContents On Line 241
+            Warning - 1 : Skipping Token layerContents On Line 247
+        EndSection
+
+        Section : Generating SCH Library - STM32WB55RGV7.SchLib
+        EndSection
+    EndSection
+EndSection
