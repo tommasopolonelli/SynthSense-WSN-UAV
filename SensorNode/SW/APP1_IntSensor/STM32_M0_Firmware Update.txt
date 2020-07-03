@@ -1,0 +1,32 @@
+Folder:
+C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeProgrammer\bin
+Valid for version: STM32Cube_FW_WB_V1.3.0
+
+
+List available ports:
+
+STM32_Programmer_CLI.exe -l
+
+Test communication:
+
+STM32_Programmer_CLI.exe -c port=SWD freq=100 ap=0
+should answer with the MCU details
+
+Delete current wireless stack :
+
+STM32_Programmer_CLI.exe -c port=SWD freq=100 ap=0 -fwdelete
+
+Read and upgrade FUS Version
+
+STM32_Programmer_CLI.exe -c port=SWD freq=100 ap=0 -r32 0x20030030 1
+0x20030030 : 00050300 : FUSv0.5.3 => Must be updated.
+0x20030030 : 01000100 or 01000200 : FUSv1.0.x => Up to date, you can download the new wireless stack using STEP6.
+
+
+Download new FUS :
+
+STM32_Programmer_CLI.exe -c port=SWD freq=100 ap=0 -fwupgrade stm32wb5x_FUS_fw.bin 0x080EC000 firstinstall=0
+
+Download new wireless stack :
+
+STM32_Programmer_CLI.exe -c port=SWD freq=100 ap=0 -fwupgrade stm32wb5x_BLE_Stack_fw.bin 0x080CB000 firstinstall=1
