@@ -21,8 +21,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV">
+    <img src="img/syslogo.jpg" alt="Logo" width="1269" height="325">
   </a>
 
   <h3 align="center">SynthSense-WSN-UAV</h3>
@@ -30,7 +30,7 @@
   <p align="center">
     A flexible, low-power platform for UAV-based data collection from remote sensors
     <br />
-    <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV/edit/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
