@@ -30,10 +30,10 @@
   <p align="center">
     A flexible, low-power platform for UAV-based data collection from remote sensors
     <br />
-    <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=O73RI--qULc&feature=youtu.be">View Demo</a>
     ·
     <a href="https://github.com/tommasopolonelli/SynthSense-WSN-UAV/issues">Report Bug</a>
     ·
@@ -68,43 +68,27 @@ This project holds the design and characterisation of a new low-power hardware p
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+The SynthSense project make use of XXX platforms, which are listedl below and to be considered as basic prerequisites to replicate our platform:
+* [DJI Matrice 100](https://www.dji.com/it/matrice100)
+* [DJI SDK for embedded Systems](https://developer.dji.com/onboard-sdk/documentation/development-workflow/environment-setup.html#stm32)
+* [Decawave EVK1000](https://www.decawave.com/product/evk1000-evaluation-kit/)
+* [STM32F407G-DISC1](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
+* [SynthSense custom sensor node](https://github.com/tommasopolonelli/SynthSense-WSN-UAV/tree/master/SensorNode/HW)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is mainly compoed by three subsystems: the UAVs, the Wireless Transceiver, and the Sensor Node. For each subsystem we propose the source code and the hardware platform, including results and simulations.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+#### Hardware
+
+#### Software
 
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
 
 
 <!-- USAGE EXAMPLES -->
