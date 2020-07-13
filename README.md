@@ -164,14 +164,14 @@ Personal Web-Page: [LINK](https://www.imperial.ac.uk/people/david.boyle)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/tommasopolonelli/SynthSense-WSN-UAV.svg?style=flat-square
 [contributors-url]: https://github.com/tommasopolonelli/SynthSense-WSN-UAV/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/tommasopolonelli/SynthSense-WSN-UAV.svg?style=flat-square
 [forks-url]: https://github.com/tommasopolonelli/SynthSense-WSN-UAV/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/tommasopolonelli/SynthSense-WSN-UAV.svg?style=flat-square
 [stars-url]: https://github.com/tommasopolonelli/SynthSense-WSN-UAV/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/tommasopolonelli/SynthSense-WSN-UAV.svg?style=flat-square
 [issues-url]: https://github.com/tommasopolonelli/SynthSense-WSN-UAV/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/tommasopolonelli/SynthSense-WSN-UAV.svg?style=flat-square
 [license-url]: https://github.com/tommasopolonelli/SynthSense-WSN-UAV/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
